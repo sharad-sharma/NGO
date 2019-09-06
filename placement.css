@@ -1,9 +1,10 @@
-
 .navbar-default {
   border-color: transparent;
   background-color: #222;
 }
-.pointer {cursor: pointer;}
+.pointer {
+  cursor: pointer;
+}
 .navbar-default .navbar-brand {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   color: #1ee2e7;
@@ -214,15 +215,15 @@ section h2.section-heading {
 section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   section {
-      padding: 150px 0;
+    padding: 150px 0;
   }
 }
 
@@ -244,21 +245,20 @@ section .container .colorme {
 }
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 body {
-  
-   font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 .row {
-   padding-top:0px;
+  padding-top: 0px;
 }
 h1 {
-   font-size: 3em;
+  font-size: 3em;
 }
 h3 {
-   color:#999;
+  color: #999;
 }
 p {
-   line-height: 160%;
-   letter-spacing:1px;
+  line-height: 160%;
+  letter-spacing: 1px;
 }
 /* -- import Bootstrap v3 ----------------------------- */
 @import "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css";
@@ -269,8 +269,7 @@ p {
 /* -- body styles ------------------------------------- */
 
 body {
-    font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial', sans-serif; 
-     
+  font-family: "Roboto", "Helvetica Neue, Helvetica, Arial", sans-serif;
 }
 
 /* -- button styles ------------------------------------- */
@@ -290,17 +289,17 @@ body {
   max-width: 350px;
   border-radius: 2px;
   margin: 20px auto;
-  padding: 20px;   
+  padding: 20px;
   background-color: #eceff1; // Blue Grey 50
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
-  0 6px 6px rgba(0, 0, 0, .23); // shadow depth 3
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); // shadow depth 3
 }
 
-.signin-card { 
-  .logo-image, h1, p {
+.signin-card 
+  .logo-image,
+  h1,
+  p {
     text-align: center;
-  }    
-}
+  }
 
 /* -- font styles ------------------------------------- */
 .display1 {
@@ -323,7 +322,12 @@ body {
 
 /* card animation from Animate.css -------------------- */
 @-webkit-keyframes cardEnter {
-  0%, 20%, 40%, 60%, 80%, 100% {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -362,7 +366,12 @@ body {
   }
 }
 @keyframes cardEnter {
-  0%, 20%, 40%, 60%, 80%, 100% {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -401,77 +410,81 @@ body {
   }
 }
 /* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 section .section-title {
-    text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 #footer {
-    background: #f2f2f2 !important;
+  background: #f2f2f2 !important;
 }
-#footer h5{
+#footer h5 {
   padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#000000;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #000000;
 }
 #footer a {
-    color: #000000;
-    text-decoration: none !important;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+  color: #000000;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
-#footer ul.social li{
+#footer ul.social li {
   padding: 3px 0;
 }
 #footer ul.social li a i {
-    margin-right: 5px;
-  font-size:25px;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
 }
 #footer ul.social li:hover a i {
-  font-size:30px;
-  margin-top:-10px;
+  font-size: 30px;
+  margin-top: -10px;
 }
 #footer ul.social li a,
-#footer ul.quick-links li a{
-  color:#000000;
+#footer ul.quick-links li a {
+  color: #000000;
 }
-#footer ul.social li a:hover{
-  color:#3b5998;
+#footer ul.social li a:hover {
+  color: #3b5998;
 }
-#footer ul.quick-links li{
+#footer ul.quick-links li {
   padding: 3px 0;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
 }
-#footer ul.quick-links li:hover{
+#footer ul.quick-links li:hover {
   padding: 3px 0;
-  margin-left:5px;
-  font-weight:700;
+  margin-left: 5px;
+  font-weight: 700;
 }
-#footer ul.quick-links li a i{
+#footer ul.quick-links li a i {
   margin-right: 5px;
 }
 #footer ul.quick-links li:hover a i {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-@media (max-width:767px){
+@media (max-width: 767px) {
   #footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
+  }
 }
+
+#footer a #cursive {
+  font-family: 'Chilanka', cursive;
 }
